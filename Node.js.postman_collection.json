@@ -1,0 +1,152 @@
+{
+  "info": {
+    "_postman_id": "2113fd5d-6c77-42a4-991a-e8215f7c719e",
+    "name": "Node.js",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "58522912",
+    "_collection_link": "https://go.postman.co/collection/58522912-2113fd5d-6c77-42a4-991a-e8215f7c719e?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "GET",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/tasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "tasks"
+              ]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "New Request",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/tasks/6afb1b5bb67e36d25b07c69e",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "tasks",
+                "6afb1b5bb67e36d25b07c69e"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "POST",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"title\": \"Dissenyar una pàgina web\",\n  \"description\": \"Crear una pàgina web responsiva amb HTML, CSS i JavaScript\",\n  \"cost\": 500,\n  \"hours_estimated\": 20,\n  \"image\": \"https://example.com/images/task1.jpg\"\n}\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/tasks",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "tasks"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "DELETE",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "http://localhost:3000/api/tasks/6afb1b5bb67e36d25b07c69e",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "tasks",
+                "6afb1b5bb67e36d25b07c69e"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "PUT",
+      "item": [
+        {
+          "name": "New Request",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"completed\": true,\n  \"hours_real\": 15,\n  \"image\": \"https://example.com/images/updated_task.jpg\"\n}\n",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://localhost:3000/api/tasks/6afb1b5bb67e36d25b07c69e",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "api",
+                "tasks",
+                "6afb1b5bb67e36d25b07c69e"
+              ]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
