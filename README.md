@@ -15,33 +15,6 @@ API REST feta amb Node.js, Express, MongoDB i Mongoose per gestionar tasques.
 - Node.js i npm.
 - MongoDB en funcionament.
 
-## Instal·lació i arrencada
-
-1. Instal·la les dependències:
-
-   ```bash
-   npm install
-   ```
-
-2. Crea el fitxer `.env` fent una còpia de `.env.example`.
-
-3. Comprova que el fitxer `.env` contingui:
-
-   ```env
-   PORT=3000
-   MONGO_URI=mongodb://127.0.0.1:27017/taskmanager
-   ```
-
-4. Inicia MongoDB.
-
-5. Arrenca el servidor:
-
-   ```bash
-   npm run dev
-   ```
-
-El servidor estarà disponible a `http://localhost:3000`.
-
 ## Rutes de l'API
 
 | Mètode | Ruta | Descripció |
